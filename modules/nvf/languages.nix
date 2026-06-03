@@ -6,18 +6,14 @@ _: {
                 enableFormat = true;
                 enableTreesitter = true;
 
-                assembly.enable = true;
                 clang.enable = true;
                 css.enable = true;
                 html.enable = true;
-                java.enable = true;
 
                 json = {
                     enable = true;
                     lsp.enable = false;
                 };
-
-                kotlin.enable = true;
 
                 markdown = {
                     enable = true;
@@ -45,11 +41,6 @@ _: {
                 typst = {
                     enable = true;
                     extensions.typst-preview-nvim.enable = true;
-                };
-
-                wgsl = {
-                    enable = true;
-                    lsp.enable = false;
                 };
             };
         };
