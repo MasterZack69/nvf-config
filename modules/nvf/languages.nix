@@ -13,7 +13,7 @@ _: {
                 astro = {
                     enable = true;
                     lsp.enable = true;
-                }
+                };
 
                 json = {
                     enable = true;
