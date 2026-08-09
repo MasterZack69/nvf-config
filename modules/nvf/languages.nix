@@ -10,6 +10,11 @@ _: {
                 css.enable = true;
                 html.enable = true;
 
+                astro = {
+                    enable = true;
+                    lsp.enable = true;
+                }
+
                 json = {
                     enable = true;
                     lsp.enable = false;
@@ -24,11 +29,6 @@ _: {
                 nix = {
                     enable = true;
                     lsp.servers = [ "nixd" ];
-                };
-
-                python = {
-                    enable = true;
-                    format.type = [ "isort" "ruff" ];
                 };
 
                 rust = {
